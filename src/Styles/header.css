@@ -1,0 +1,273 @@
+#header {
+    width: 100%;
+    height: inherit;
+    background-color: #F6F5F4;
+    padding-bottom: 60px;
+}
+#nav {
+    position: relative;
+}
+
+.sm_nav_disactive {
+    display: none;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom:  1px solid #E0E0E0;
+}
+.nav_box_1 {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    
+}
+.logo h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 15px;
+    padding-right: 13px;
+    border-right: 1px #000 solid;
+}
+.sm_logo, .bar {
+    display: none;
+}
+.nav_box_1 ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.nav_box_1 ul li {
+    list-style: none;
+    margin: 0 7px;
+}
+.nav_box_2 {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+.nav_box_2 .user {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #C3DCE3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+}
+.nav_box_2 .user h2 {
+     margin: 0;
+     font-weight: 500;
+     font-size: 15px;
+}
+.nav_box_2 h5, h1 {
+    margin: 0 5px;
+}
+
+/*---------------------- hero------------ */
+#hero {
+    width: 100%;
+    display: flex;
+   
+}
+.hero_box_1 {
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.box_1_holder h6 {
+    margin: 0;
+    font-weight: 500;
+    color: #C3DCE3;
+}
+.box_1_holder h1 {
+    margin: 0;
+    font-weight: 400;
+    color: #000;
+    font-size: 56px;
+    line-height: 56px;
+}
+.box_1_holder p {
+    margin: 0;
+    font-weight: 400;
+    color: #000;
+    font-size: 16px;
+    padding: 15px 0;
+}
+.box_1_holder button {
+    outline: none;
+    border: none;
+    padding: 10px;
+    background-color: #C3DCE3;
+    width: 40%;
+    border-radius: 50px;
+    font-weight: 500;
+    color: #2B788B;
+    font-size: 14px;
+}
+.box_num {
+    display: flex;
+    align-items: center;
+    margin-top: 22px;
+}
+.pop_words {
+    padding-right: 50px;
+    border-right: #E0E0E0 1px solid;
+}
+.mini_games {
+    padding-left: 50px;
+}
+.hero_box_2 {
+    width: 50%;
+     margin-top: 20px;
+    margin-right: 50px;
+}
+.hero_box_2 img {
+    width: 100%;
+}   
+
+
+
+@media only screen and (max-width: 600px)  {
+    .nav_box_1 {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+    .sm_logo {
+    display: block;
+}
+.logo {
+    display: none;
+}
+.bar {
+    display: block;
+}
+/* sm_nav */
+.sm_nav {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #F6F5F4;
+}
+.isactive_nav {
+    display: block;
+}
+.sm_nav_disactive {
+    display: none;
+}
+.sm_nav_head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:  1px solid #E0E0E0;
+}
+.sm_nav_head h1{
+    padding-left: 30px;
+}
+.sm_nav_head h1, h2 {
+    margin: 0;
+}
+.sm_link {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sm_link ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.sm_link ul li {
+    list-style: none;
+    padding: 10px 0;
+    font-weight: 500;
+}
+.active {
+    color: #2B788B;
+}
+
+
+
+
+.nav_box_1 ul {
+    display: none;  
+}
+.nav_box_2 {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+.nav_box_2 .user {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #C3DCE3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+}
+.nav_box_2 .user h2 {
+     margin: 0;
+     font-weight: 500;
+     font-size: 15px;
+}
+.nav_box_2 h5 {
+    margin: 0 5px;
+}
+.nav_box_2 h1 {
+    display: none;
+}
+
+    #hero {
+    width: 100%;
+    display: block;
+   
+}
+.hero_box_1 {
+    width: 100%;
+    margin: 0;  
+    padding: 0;
+}
+.box_1_holder {
+    text-align: center;
+}
+.hero_box_1 {
+    width: 100%;
+
+    display: block;
+}
+.box_1_holder h1 {
+    margin: 0;
+    font-weight: 400;
+    color: #000;
+    font-size: 40px;
+    line-height: 56px;
+}
+.hero_box_2 {
+    width: 100%;
+    padding: 0px;
+    margin: 0;
+}
+.hero_box_2 img {
+    width: 100%;
+}  
+.box_num {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 22px;
+}
+}
