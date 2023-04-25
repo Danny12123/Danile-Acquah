@@ -37,6 +37,14 @@ footer{
 @media only screen and (max-width: 600px)  {
     .foot_box_1 {
     display: block;
+    margin: 0 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #585858;
+}
+.foot_box_1 ul li{
+    margin: 0 5px;
+    list-style: none;
+    font-weight: 500;
 }
     .foot_box_2 {
     display: block;

@@ -15,16 +15,17 @@ const Hero = () => {
           </p>
           <button>About platform</button>
 
-          <div className='box_num'>
+          <div className="box_num">
             <div className="pop_words">
               <h1>
-                600<span>+</span>
+                600
+                <span style={{ color: "#2B788B", fontWeight: "800" }}>+</span>
               </h1>
               <p>Popular words</p>
             </div>
             <div className="mini_games">
               <h1>
-                2<span>+</span>
+                2<span style={{ color: "#2B788B", fontWeight: "800" }}>+</span>
               </h1>
               <p>Mini-games</p>
             </div>
