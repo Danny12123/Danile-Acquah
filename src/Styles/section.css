@@ -41,7 +41,34 @@
     font-size: 14px;
 }
 
-
+.ic_box {
+    display: flex;
+    margin: 12px 0;
+}
+.ic_box .sp {
+    background-color: #F2D4DC;
+    color: #8e4b5d;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-weight: 500;
+}
+.ic_box .au {
+    background-color: #C3DCE3;
+    color: #2B788B;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-weight: 500;
+}
 
 
 @media only screen and (max-width: 600px)  {

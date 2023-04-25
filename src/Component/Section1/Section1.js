@@ -17,6 +17,14 @@ const Section1 = () => {
             in a playful way
           </h1>
           <p>Make learning words more fun with mini-games</p>
+          <div className='ic_box'>
+            <div className='sp'>
+                <p>Sprint</p>
+            </div>
+            <div className='au'>
+                <p>Audio-call</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
