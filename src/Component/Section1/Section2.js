@@ -4,7 +4,7 @@ import "../../Styles/section.css";
 const Section2 = () => {
   return (
     <section id="sec2">
-      <div className="sec_box_2">
+      <div className="sec_box_1_2">
         <div>
           <h1>
             Increase your <br />
@@ -17,7 +17,7 @@ const Section2 = () => {
           <button>Textbook</button>
         </div>
       </div>
-      <div className="sec_box_1">
+      <div className="sec_box_2_2">
         <img
           src="./image/WhatsApp Image 2023-04-24 at 9.35.59 PM.jpeg"
           alt="section2"

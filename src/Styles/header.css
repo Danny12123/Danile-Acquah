@@ -15,7 +15,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
+    padding: 10px 200px;
     border-bottom:  1px solid #E0E0E0;
 }
 .nav_box_1 {
@@ -30,8 +30,8 @@ nav {
 }
 .logo h1 {
     margin: 0;
-    font-weight: 700;
-    font-size: 15px;
+    font-weight: 800;
+    font-size: 20px;
     padding-right: 13px;
     border-right: 1px #000 solid;
 }
@@ -75,12 +75,13 @@ nav {
 #hero {
     width: 100%;
     display: flex;
-   
+    padding: 20px 0px;
 }
 .hero_box_1 {
     width: 50%;
     margin-top: 20px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
+    padding-left: 250px;
 }
 .box_1_holder h6 {
     margin: 0;
@@ -89,10 +90,11 @@ nav {
 }
 .box_1_holder h1 {
     margin: 0;
-    font-weight: 600;
+    font-weight: 800;
     color: #000;
     font-size: 56px;
     line-height: 56px;
+    
 }
 .box_1_holder p {
     margin: 0;
@@ -127,13 +129,34 @@ nav {
 .hero_box_2 {
     width: 50%;
      margin-top: 20px;
-    margin-right: 50px;
+    /* margin-right: 50px; */
+    padding-right: 250px;
 }
 .hero_box_2 img {
     width: 100%;
 }   
+/* 
+@media only screen and (max-width: 2560px)  { 
+    nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    border-bottom:  1px solid #E0E0E0;
+}
+.hero_box_1 {
+    width: 100%;
+    margin: 0;  
+    padding-left: 20px;
+}
 
+.hero_box_2 {
+    width: 100%;
+    padding-right: 20px;
+    margin: 0;
+}
 
+} */
 
 @media only screen and (max-width: 600px)  {
     #header {
@@ -141,6 +164,13 @@ nav {
     height: inherit;
     background-color: #F6F5F4;
     padding-bottom: 60px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    border-bottom:  1px solid #E0E0E0;
 }
     .nav_box_1 {
     display: flex;

@@ -13,6 +13,7 @@
 }
 .sec_box_1 {
     width: 50%;
+    padding-left: 250px;
 }
 .sec_box_1 img {
     width: 100%;
@@ -22,14 +23,39 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-right: 250px;
+}
+.sec_box_1_2 {
+     width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 250px;
 }
 .sec_box_2 h1{
     margin: 0;
     font-size: 32px;
     line-height: 32px;
-    font-weight: 400;
+    font-weight: 700;
+}
+.sec_box_1_2 h1{
+    margin: 0;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 700;
 }
 .sec_box_2 button {
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    background-color: #C3DCE3;
+    /* width: 40%; */
+    border-radius: 50px;
+    font-weight: 600;
+    color: #2B788B;
+    font-size: 14px;
+}
+.sec_box_1_2 button {
     outline: none;
     border: none;
     padding: 10px 20px;
@@ -56,6 +82,12 @@
     justify-content: center;
     border-radius: 20px;
     font-weight: 500;
+    position: relative;
+}
+.ic_box .sp img {
+    width: 70%;
+    position: absolute;
+    top: -10px;
 }
 .ic_box .au {
     background-color: #C3DCE3;
@@ -73,6 +105,32 @@ p {
     color: #585858;
 }
 
+@media only screen and (max-width: 2560px)  { 
+    .sec_box_1 {
+    width: 100%;
+    padding: 0;
+}
+.sec_box_1 {
+    width: 50%;
+    padding: 0;
+}
+.sec_box_1 img {
+    width: 100%;
+}
+.sec_box_2 {
+     width: 50%;
+     text-align: center;
+    padding-top: 20px;
+    padding-right: 0;
+}
+.sec_box_1_2 {
+     width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+}
+}
 @media only screen and (max-width: 600px)  {
     #sec1 {
     width: 100%;
@@ -89,14 +147,30 @@ p {
 }
 .sec_box_1 {
     width: 100%;
+    padding: 0;
 }
 .sec_box_1 img {
+    width: 100%;
+}
+.sec_box_2_2 {
+    width: 100%;
+    padding: 0;
+}
+.sec_box_2_2 img {
     width: 100%;
 }
 .sec_box_2 {
      width: 100%;
      text-align: center;
     padding-top: 20px;
+    padding-right: 0;
+}
+.sec_box_1_2 {
+     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 0px;
 }
 .sec_box_2 h1{
     margin: 0;

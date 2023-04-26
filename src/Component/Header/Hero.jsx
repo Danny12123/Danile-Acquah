@@ -17,16 +17,23 @@ const Hero = () => {
 
           <div className="box_num">
             <div className="pop_words">
-              <h1>
-                600
-                <span style={{ color: "#2B788B", fontWeight: "800" }}>+</span>
-              </h1>
+              <div style={{ display: "flex", alignItems: "center" }}>
+                <img src="./image/DUTC3478.JPG" alt="" width="30" />
+                <h1>
+                  300
+                  <span style={{ color: "#2B788B", fontWeight: "800" }}>+</span>
+                </h1>
+              </div>
               <p>Popular words</p>
             </div>
             <div className="mini_games">
-              <h1>
-                2<span style={{ color: "#2B788B", fontWeight: "800" }}>+</span>
-              </h1>
+              <div style={{ display: "flex", alignItems: "center" }}>
+                <img src="./image/LDCU6291.JPG" alt="" width="30" />
+                <h1>
+                  2
+                  <span style={{ color: "#2B788B", fontWeight: "800" }}>+</span>
+                </h1>
+              </div>
               <p>Mini-games</p>
             </div>
           </div>
